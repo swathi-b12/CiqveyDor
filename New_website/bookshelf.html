@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Bookshelf — Cenova</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-inner">
+      <a href="index.html" class="logo">CENO<span>V</span>A</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" aria-label="Switch theme" aria-pressed="false">
+          <span class="toggle-sun" aria-hidden="true">☀</span>
+          <span class="toggle-thumb" aria-hidden="true"></span>
+          <span class="toggle-moon" aria-hidden="true">☽</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="shop.html">Shop</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Modern Bookshelf</span>
+  </nav>
+</div>
+
+<main class="product-detail">
+  <div class="container">
+    <div class="detail-grid">
+
+      <!-- Gallery -->
+      <div class="reveal">
+        <div class="gallery-main">
+          <img src="images/bookshelf.jpg"
+               alt="Modern Bookshelf — main view" id="main-gallery-img"/>
+        </div>
+        <div class="gallery-thumbs">
+          <div class="gallery-thumb active">
+            <img src="images/bookshelf.jpg" alt="View 1"/>
+          </div>
+          <div class="gallery-thumb">
+            <img src="images/hero-furniture.jpg" alt="View 2"/>
+          </div>
+          <div class="gallery-thumb">
+            <img src="images/house.jpg" alt="View 3"/>
+          </div>
+          <div class="gallery-thumb">
+            <img src="images/bookshelf.jpg" alt="View 4"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="detail-info reveal reveal-delay-2">
+        <span class="eyebrow">Living Room · Storage</span>
+        <h1>Modern Bookshelf</h1>
+
+        <div class="detail-price">
+          ₹18,500 <del>₹24,000</del>
+        </div>
+
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span class="rating-count">4.8 · 142 reviews</span>
+        </div>
+
+        <div class="detail-divider"></div>
+
+        <p class="detail-desc">
+          The Cenova Modern Bookshelf blends clean Scandinavian lines with the warmth of solid sheesham wood. 
+          Five open shelves provide generous display space, while the natural grain ensures every unit is unique. 
+          Whether styled with books, plants, or art — it anchors any room with quiet authority.
+        </p>
+
+        <ul class="features-list">
+          <li class="feature-item"><span class="feature-check">✦</span> Solid sheesham wood — sustainably sourced</li>
+          <li class="feature-item"><span class="feature-check">✦</span> 5 open shelves, 80 kg total load capacity</li>
+          <li class="feature-item"><span class="feature-check">✦</span> Dimensions: 180H × 80W × 35D cm</li>
+          <li class="feature-item"><span class="feature-check">✦</span> Protective matte lacquer finish</li>
+          <li class="feature-item"><span class="feature-check">✦</span> Easy bolt-and-slot assembly (~45 min)</li>
+          <li class="feature-item"><span class="feature-check">✦</span> Available in Natural & Walnut finish</li>
+        </ul>
+
+        <div class="detail-btns">
+          <button class="btn btn-primary">Add to Cart</button>
+          <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon">Buy on Amazon</a>
+        </div>
+
+        <div class="detail-divider"></div>
+
+        <div class="detail-meta">
+          <div class="meta-item">
+            <strong>Material</strong>
+            <span>Sheesham Wood</span>
+          </div>
+          <div class="meta-item">
+            <strong>Finish</strong>
+            <span>Matte Lacquer</span>
+          </div>
+          <div class="meta-item">
+            <strong>Delivery</strong>
+            <span>5–7 business days</span>
+          </div>
+          <div class="meta-item">
+            <strong>Warranty</strong>
+            <span>2 years</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- Related Products -->
+<section class="related">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">You May Also Like</span>
+      <h2>Related Products</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="related-grid">
+
+      <article class="product-card reveal reveal-delay-1">
+        <div class="card-img-wrap">
+          <img src="images/chair.jpg" alt="Accent Chair" loading="lazy"/>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Seating</span>
+          <h3>Accent Chair</h3>
+          <p>Velvet and oak — the perfect reading companion for your new shelf.</p>
+          <div class="card-price">₹22,000</div>
+          <div class="card-btns">
+            <a href="chair.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card reveal reveal-delay-2">
+        <div class="card-img-wrap">
+          <img src="images/clock.jpg" alt="Wall Clock" loading="lazy"/>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Decor</span>
+          <h3>Minimal Wall Clock</h3>
+          <p>Elegant timepiece that completes any styled shelf display.</p>
+          <div class="card-price">₹4,200</div>
+          <div class="card-btns">
+            <a href="clock.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card reveal reveal-delay-3">
+        <div class="card-img-wrap">
+          <img src="images/c-shaped-table.jpg" alt="C-Shaped Table" loading="lazy"/>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Tables</span>
+          <h3>C-Shaped Side Table</h3>
+          <p>A versatile companion — sofa side, bed side, or beside your bookshelf.</p>
+          <div class="card-price">₹6,800</div>
+          <div class="card-btns">
+            <a href="table.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Amazon</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">CENO<span>V</span>A</a>
+        <p>Premium furniture crafted for those who believe that great design is not a luxury — it's a necessity.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="bookshelf.html">Bookshelves</a></li>
+          <li><a href="chair.html">Accent Chairs</a></li>
+          <li><a href="clock.html">Wall Clocks</a></li>
+          <li><a href="table.html">Side Tables</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© Cenova 2026. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">PT</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
