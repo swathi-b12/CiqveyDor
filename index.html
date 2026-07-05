@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cenova — Premium Furniture</title>
+  <meta name="description" content="Cenova crafts premium furniture that transforms houses into homes."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════════════════ HEADER ══════════════════ -->
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-inner">
+      <a href="index.html" class="logo">CENO<span>V</span>A</a>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="theme-toggle" aria-label="Switch theme" aria-pressed="false">
+          <span class="toggle-sun" aria-hidden="true">☀</span>
+          <span class="toggle-thumb" aria-hidden="true"></span>
+          <span class="toggle-moon" aria-hidden="true">☽</span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ══════════════════ HERO SLIDER ══════════════════ -->
+<section class="hero" aria-label="Hero Showcase">
+
+  <div class="slides-track">
+
+    <!-- Slide 1 -->
+    <div class="slide active">
+      <img class="slide-img"
+           src="images/hero-furniture.jpg"
+           alt="Modern living room sofa"/>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-eyebrow">New Collection 2026</span>
+        <h1 class="slide-title">Living Room<br><em>Reimagined</em></h1>
+        <p class="slide-sub">Sofas crafted for those who refuse to compromise on comfort or beauty.</p>
+        <div class="slide-cats">
+          <span class="cat-tag active-cat">Bookshelf</span>
+          <span class="cat-tag">Accent Chair</span>
+          <span class="cat-tag">C-Shaped Table</span>
+          <span class="cat-tag">Clock</span>
+        </div>
+        <div class="slide-actions">
+          <a href="shop.html" class="btn btn-gold">Discover More</a>
+          <a href="about.html" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.4);">Our Story</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <img class="slide-img"
+           src="images/house.jpg"
+           alt="Elegant bedroom furniture"/>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-eyebrow">Bedroom Sanctuary</span>
+        <h1 class="slide-title">Rest in<br><em>Absolute Luxury</em></h1>
+        <p class="slide-sub">Bed frames and wardrobes built to outlast trends, seasons, and time.</p>
+        <div class="slide-cats">
+          <span class="cat-tag">Bookshelf</span>
+          <span class="cat-tag active-cat">Accent Chair</span>
+          <span class="cat-tag">C-Shaped Table</span>
+          <span class="cat-tag">Clock</span>
+        </div>
+        <div class="slide-actions">
+          <a href="shop.html" class="btn btn-gold">Discover More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <img class="slide-img"
+           src="images/c-shaped-table.jpg"
+           alt="Dining table and chairs"/>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-eyebrow">Dining Collection</span>
+        <h1 class="slide-title">Gather Around<br><em>Great Design</em></h1>
+        <p class="slide-sub">Dining tables and chairs where every meal becomes an occasion.</p>
+        <div class="slide-cats">
+          <span class="cat-tag">Bookshelf</span>
+          <span class="cat-tag">Accent Chair</span>
+          <span class="cat-tag active-cat">C-Shaped Table</span>
+          <span class="cat-tag">Clock</span>
+        </div>
+        <div class="slide-actions">
+          <a href="shop.html" class="btn btn-gold">Discover More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+      <img class="slide-img"
+           src="images/bookshelf.jpg"
+           alt="Modern home office desk"/>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <span class="slide-eyebrow">Work & Study</span>
+        <h1 class="slide-title">Workspaces That<br><em>Inspire</em></h1>
+        <p class="slide-sub">Desks and shelves designed for focus, elegance, and productivity.</p>
+        <div class="slide-cats">
+          <span class="cat-tag active-cat">Bookshelf</span>
+          <span class="cat-tag">Accent Chair</span>
+          <span class="cat-tag">C-Shaped Table</span>
+          <span class="cat-tag">Clock</span>
+        </div>
+        <div class="slide-actions">
+          <a href="shop.html" class="btn btn-gold">Discover More</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /slides-track -->
+
+  <button class="slider-arrow prev" aria-label="Previous slide">&#8592;</button>
+  <button class="slider-arrow next" aria-label="Next slide">&#8594;</button>
+  <div class="slider-dots" role="tablist" aria-label="Slides"></div>
+  <div class="slide-counter" aria-live="polite"></div>
+
+</section>
+
+
+<!-- ══════════════════ FEATURED PRODUCTS ══════════════════ -->
+<section class="section" id="products">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Curated Picks</span>
+      <h2>Featured Products</h2>
+      <div class="divider"></div>
+      <p>Each piece selected for its craftsmanship, durability, and timeless aesthetic.</p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Product 1 -->
+      <article class="product-card reveal reveal-delay-1">
+        <div class="card-img-wrap">
+          <img src="images/bookshelf.jpg"
+               alt="Modern Bookshelf" loading="lazy"/>
+          <span class="card-badge">New</span>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Living Room</span>
+          <h3>Modern Bookshelf</h3>
+          <p>Solid sheesham wood with an open-frame design. Holds up to 80 kg. Fits any aesthetic.</p>
+          <div class="card-price">₹18,500 <del>₹24,000</del></div>
+          <div class="card-btns">
+            <a href="bookshelf.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="product-card reveal reveal-delay-2">
+        <div class="card-img-wrap">
+          <img src="images/chair.jpg"
+               alt="Accent Chair" loading="lazy"/>
+          <span class="card-badge">Bestseller</span>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Seating</span>
+          <h3>Accent Chair</h3>
+          <p>Velvet upholstery on a solid oak frame. Ergonomic, plush, and unmistakably premium.</p>
+          <div class="card-price">₹22,000 <del>₹28,500</del></div>
+          <div class="card-btns">
+            <a href="chair.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="product-card reveal reveal-delay-3">
+        <div class="card-img-wrap">
+          <img src="images/clock.jpg"
+               alt="Minimal Wall Clock" loading="lazy"/>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Decor</span>
+          <h3>Minimal Wall Clock</h3>
+          <p>Brushed brass hands on a white lacquered face. Silent quartz movement. 40 cm diameter.</p>
+          <div class="card-price">₹4,200 <del>₹5,800</del></div>
+          <div class="card-btns">
+            <a href="clock.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="product-card reveal reveal-delay-4">
+        <div class="card-img-wrap">
+          <img src="images/c-shaped-table.jpg"
+               alt="C-Shaped Side Table" loading="lazy"/>
+          <span class="card-badge">Sale</span>
+        </div>
+        <div class="card-body">
+          <span class="eyebrow">Tables</span>
+          <h3>C-Shaped Side Table</h3>
+          <p>Slides under sofas and beds. Powder-coated steel legs, walnut-finish tabletop.</p>
+          <div class="card-price">₹6,800 <del>₹9,200</del></div>
+          <div class="card-btns">
+            <a href="table.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="https://amazon.in" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /products-grid -->
+
+    <div style="text-align:center;margin-top:52px;" class="reveal">
+      <a href="shop.html" class="btn btn-outline">View All Products &rarr;</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ CUSTOMER FAVORITE ══════════════════ -->
+<section class="section favorite-section" id="vote">
+  <div class="container">
+    <div class="section-head reveal" style="text-align:center;max-width:560px;margin:0 auto 0;">
+      <span class="eyebrow">Community Voice</span>
+      <h2>Which Cenova Product<br>Do You Love Most?</h2>
+      <div class="divider" style="margin:16px auto;"></div>
+      <p>Cast your vote and let us know which piece speaks to you.</p>
+    </div>
+
+    <div class="vote-grid">
+
+      <div class="vote-card" data-product="Modern Bookshelf">
+        <img src="images/bookshelf.jpg"
+             alt="Bookshelf" loading="lazy"/>
+        <h4>Modern Bookshelf</h4>
+        <p>₹18,500</p>
+        <div class="vote-radio"></div>
+      </div>
+
+      <div class="vote-card" data-product="Accent Chair">
+        <img src="images/chair.jpg"
+             alt="Accent Chair" loading="lazy"/>
+        <h4>Accent Chair</h4>
+        <p>₹22,000</p>
+        <div class="vote-radio"></div>
+      </div>
+
+      <div class="vote-card" data-product="Minimal Clock">
+        <img src="images/clock.jpg"
+             alt="Wall Clock" loading="lazy"/>
+        <h4>Minimal Wall Clock</h4>
+        <p>₹4,200</p>
+        <div class="vote-radio"></div>
+      </div>
+
+      <div class="vote-card" data-product="C-Shaped Table">
+        <img src="images/c-shaped-table.jpg"
+             alt="C-Shaped Table" loading="lazy"/>
+        <h4>C-Shaped Side Table</h4>
+        <p>₹6,800</p>
+        <div class="vote-radio"></div>
+      </div>
+
+    </div>
+
+    <div class="vote-actions reveal">
+      <button class="btn btn-primary" id="vote-submit">Submit My Vote</button>
+      <span class="vote-result" id="vote-result"></span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ FUTURE PRODUCT VOTE ══════════════════ -->
+<section class="section" id="future">
+  <div class="container">
+    <div class="future-inner">
+
+      <div class="reveal">
+        <span class="eyebrow">Shape Our Future</span>
+        <h2>What Should We<br>Build Next?</h2>
+        <div class="divider"></div>
+        <p>Your opinion guides our next product launch. Tell us what you'd love to see from Cenova.</p>
+
+        <div class="future-options">
+          <button class="future-option" data-product="Recliner Sofa">
+            <span class="option-dot"></span>
+            <span class="option-label">🛋️ &nbsp;Recliner Sofa</span>
+          </button>
+          <button class="future-option" data-product="Storage Bed">
+            <span class="option-dot"></span>
+            <span class="option-label">🛏️ &nbsp;Storage Bed</span>
+          </button>
+          <button class="future-option" data-product="Accent Armchair">
+            <span class="option-dot"></span>
+            <span class="option-label">🪑 &nbsp;Accent Armchair</span>
+          </button>
+          <button class="future-option" data-product="Coffee Table">
+            <span class="option-dot"></span>
+            <span class="option-label">☕ &nbsp;Coffee Table</span>
+          </button>
+        </div>
+
+        <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap;">
+          <button class="btn btn-primary" id="future-submit">Submit Vote</button>
+          <span class="vote-result" id="future-result" style="display:none;"></span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="notify-card">
+          <h4>Get Launch Notifications</h4>
+          <p>Be the first to know when your chosen product drops — exclusive early-bird pricing included.</p>
+
+          <label class="notify-toggle-wrap">
+            <input type="checkbox" id="notify-check"/>
+            <span class="notify-switch"></span>
+            <span class="notify-label">Yes, notify me at launch</span>
+          </label>
+
+          <div class="email-input-wrap" id="email-wrap" style="display:none;">
+            <input type="email" placeholder="your@email.com" aria-label="Email address"/>
+            <button class="btn btn-gold btn-sm">Notify Me</button>
+          </div>
+        </div>
+
+        <div style="margin-top:28px;padding:24px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--bg-card);">
+          <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:12px;">CURRENT VOTING RESULTS</p>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.82rem;margin-bottom:4px;"><span>Recliner Sofa</span><span style="color:var(--gold);">38%</span></div>
+              <div style="height:4px;background:var(--bg-alt);border-radius:2px;"><div style="width:38%;height:100%;background:var(--gold);border-radius:2px;"></div></div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.82rem;margin-bottom:4px;"><span>Storage Bed</span><span style="color:var(--gold);">27%</span></div>
+              <div style="height:4px;background:var(--bg-alt);border-radius:2px;"><div style="width:27%;height:100%;background:var(--gold-light);border-radius:2px;opacity:0.7;"></div></div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.82rem;margin-bottom:4px;"><span>Accent Armchair</span><span style="color:var(--gold);">21%</span></div>
+              <div style="height:4px;background:var(--bg-alt);border-radius:2px;"><div style="width:21%;height:100%;background:var(--gold-light);border-radius:2px;opacity:0.5;"></div></div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.82rem;margin-bottom:4px;"><span>Coffee Table</span><span style="color:var(--gold);">14%</span></div>
+              <div style="height:4px;background:var(--bg-alt);border-radius:2px;"><div style="width:14%;height:100%;background:var(--gold-light);border-radius:2px;opacity:0.35;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ CONTACT ══════════════════ -->
+<section class="section" style="background:var(--bg-alt);border-top:1px solid var(--border);" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+
+      <div class="reveal">
+        <span class="eyebrow">Reach Out</span>
+        <h2>Let's Start a<br>Conversation</h2>
+        <div class="divider"></div>
+        <p style="margin-bottom:40px;">Whether you have a question about a product, need design advice, or just want to talk furniture — we're here for it.</p>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Address</h4>
+            <p>12, Design Hub, Indiranagar<br>Bengaluru, Karnataka 560038</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>hello@cenova.in</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="cf-name">Your Name</label>
+            <input type="text" id="cf-name" placeholder="Arjun Mehta" required/>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email Address</label>
+            <input type="email" id="cf-email" placeholder="arjun@email.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="index.html" class="logo">CENO<span>V</span>A</a>
+        <p>Premium furniture crafted for those who believe that great design is not a luxury — it's a necessity.</p>
+        <div class="footer-newsletter">
+          <p>Subscribe for new arrivals and exclusive offers.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="your@email.com"/>
+            <button class="btn btn-gold btn-sm">Join</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="bookshelf.html">Bookshelves</a></li>
+          <li><a href="chair.html">Accent Chairs</a></li>
+          <li><a href="clock.html">Wall Clocks</a></li>
+          <li><a href="table.html">Side Tables</a></li>
+          <li><a href="shop.html">All Products</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Returns & Exchange</a></li>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Cenova 2026. All rights reserved. Crafted with intention.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">PT</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
